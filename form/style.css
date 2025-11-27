@@ -1,0 +1,66 @@
+/* General Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/* Center Container */
+.container {
+    width: 90%;
+    max-width: 500px;
+    background: #fff;
+    padding: 25px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form Elements */
+.register-form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+.register-form input,
+.register-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+/* Gender Radio Buttons */
+.gender-box {
+    margin-bottom: 15px;
+    font-size: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+/* Button Styling */
+.register-form button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background: #0056b3;
+}
